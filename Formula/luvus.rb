@@ -16,7 +16,7 @@
 class Luvus < Formula
   desc "Mission control for your AI coding agents"
   homepage "https://github.com/RizRiyz/luvus"
-  version "0.12.0"
+  version "0.13.0"
   license "MIT"
   head "https://github.com/RizRiyz/luvus.git", branch: "main"
 
@@ -28,23 +28,23 @@ class Luvus < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/RizRiyz/luvus/releases/download/v0.12.0/luvus-v0.12.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f8231c5d2d12f53c67ae3eefedf52f88b92256e8fcfc5951d7547350f188a1a4"
+      url "https://github.com/RizRiyz/luvus/releases/download/v0.13.0/luvus-v0.13.0-aarch64-apple-darwin.tar.gz"
+      sha256 "717c3ef4c0f9ed3b7dc0e6e4d9382122e4afa19215af8c91fcd87cdd06a16ca4"
     end
     on_intel do
-      url "https://github.com/RizRiyz/luvus/releases/download/v0.12.0/luvus-v0.12.0-x86_64-apple-darwin.tar.gz"
-      sha256 "95b32522c8a93af3f93ba5f02428dc5dbfebd903667156aeda68239659ec02dc"
+      url "https://github.com/RizRiyz/luvus/releases/download/v0.13.0/luvus-v0.13.0-x86_64-apple-darwin.tar.gz"
+      sha256 "8c18efb8e83b65a673927895db30fa5b4ef30c7883f493b60202ceb78aa0e252"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/RizRiyz/luvus/releases/download/v0.12.0/luvus-v0.12.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "2870a1f9386d2e10aecc4e9e5149951eb374c4fd9fb723c1539b154034b2afd2"
+      url "https://github.com/RizRiyz/luvus/releases/download/v0.13.0/luvus-v0.13.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "f3572649ffe3ff0440a99c92da33038925a0009bef5d1513f59a36dd24a43156"
     end
     on_arm do
-      url "https://github.com/RizRiyz/luvus/releases/download/v0.12.0/luvus-v0.12.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "1e72ee8c4273b82ef48b9a6535c5f819d9ade6c208bf8d67bb4f15b91c3b4af1"
+      url "https://github.com/RizRiyz/luvus/releases/download/v0.13.0/luvus-v0.13.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "b257fb3a9c1eac7db76e0d2726b86dd3a9730563a4b015eb9f4a8f222faecb52"
     end
   end
 
