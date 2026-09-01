@@ -17,7 +17,7 @@ class Luvus < Formula
   desc "Mission control for your AI coding agents"
   homepage "https://github.com/RizRiyz/luvus"
   version "0.13.2"
-  license "MIT"
+  license "Apache-2.0"
   head "https://github.com/RizRiyz/luvus.git", branch: "main"
 
   # Deliberately no `depends_on "git"` / `"gh"`. luvus only *shells out* to them:
