@@ -29,22 +29,22 @@ class Luvus < Formula
   on_macos do
     on_arm do
       url "https://github.com/RizRiyz/luvus/releases/download/v0.14.2/luvus-v0.14.2-aarch64-apple-darwin.tar.gz"
-      sha256 "49446ee2702a36f09d723f728f776e0f56518a66f6272f13d72ad31ce5762444"
+      sha256 "ef53040035b4974b129a9485681c03c332726eb088432591065c66bb9f780aa2"
     end
     on_intel do
       url "https://github.com/RizRiyz/luvus/releases/download/v0.14.2/luvus-v0.14.2-x86_64-apple-darwin.tar.gz"
-      sha256 "34aacf24cb4e098cb0f7591ac6eb74e4dd23b29323653ab96d6408427b0a5c4d"
+      sha256 "1fc679c9add536ff098edf2a9977f4c426b72ea57810a683321b5c58e86da9ed"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/RizRiyz/luvus/releases/download/v0.14.2/luvus-v0.14.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "af9e5f1ba4551f0ad7a245666152fae16e05554509c4f3fb82b011d912a2f61a"
+      sha256 "39734a22b95049afc8aa8273781a3cae2737d14820dd2ffb765ba48fd8366498"
     end
     on_arm do
       url "https://github.com/RizRiyz/luvus/releases/download/v0.14.2/luvus-v0.14.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "02b6d0dd8b72182d33119be837e7ba5ee8c938453b2dab47face98da1c504e3d"
+      sha256 "87d14589463ed0b73975e07e5c8674f1f30dd18e7dbbf9750edf776313f95a59"
     end
   end
 
